@@ -4,20 +4,21 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - name: List files in the repository
-        run: |
-          ls ${{ github.workspace }}
-          ls ${{ github.workspace }}
-          ls ${{ github.workspace }}
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - run: |
+          pip install poetry
+          poetry install
+      - run: echo "🍏 This job's status is ${{ job.status }}."
           
 
 
-  # publish-package-test-pypi: 
-  #   runs-on: ubuntu-20.04
-  #   steps:
-  #     - name: Publish package to TestPyPI
-  #       uses: pypa/gh-action-pypi-publish@release/v1
-  #       with:
-  #         user: __token__
-  #         password: ${{ secrets.TEST_PYPI_API_TOKEN }}
-  #         repository_url: https://test.pypi.org/legacy/
+  publish-package-test-pypi: 
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Publish package to TestPyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          user: __token__
+          password: ${{ secrets.TEST_PYPI_API_TOKEN }}
+          repository_url: https://test.pypi.org/legacy/
