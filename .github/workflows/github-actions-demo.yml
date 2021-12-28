@@ -12,8 +12,9 @@ jobs:
           poetry install
       - run:
           poetry build
-      - run:
-          ls
+      - run: |
+          poetry config repositories.testpypi https://test.pypi.org/legacy/
+          poetry publish -r testpypi -u __token__ -p ${POETRY_HTTP_BASIC_TESTPYPI_PASSWORD}
           
 
 
