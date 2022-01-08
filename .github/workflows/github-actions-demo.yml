@@ -1,5 +1,5 @@
 name: GitHub Actions Demo
-on: [push]
+on: [ push ]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
@@ -10,7 +10,3 @@ jobs:
       - run: poetry install
       - name: Run tests
         run: poetry run pytest tests/
-      # - run: poetry build
-      # - run: |
-      #     poetry config repositories.testpypi https://test.pypi.org/legacy/
-      #     poetry publish -r testpypi -u __token__ -p ${{ secrets.TEST_PYPI_API_TOKEN }}
