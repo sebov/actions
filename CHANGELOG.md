@@ -2,6 +2,15 @@
 
 <!--next-version-placeholder-->
 
+## v0.6.0 (2022-01-08)
+### Feature
+* Opopppppppp ([`d3baf84`](https://github.com/sebov/actions/commit/d3baf845503b76762ed7091ae06d20aea73572f9))
+* Ooopopo ([`2e6b3fc`](https://github.com/sebov/actions/commit/2e6b3fcbc23dea285cec107beb160282c5ad17b2))
+* 6666sss ([`f63bd56`](https://github.com/sebov/actions/commit/f63bd56ed05527bcd919fd5d9a03cb3abf041730))
+
+### Fix
+* 878777d7d ([`f8a093b`](https://github.com/sebov/actions/commit/f8a093b31466237535d3eedddddf309cfb19d4fd))
+
 ## v0.5.0 (2022-01-08)
 ### Feature
 * Opopop ([`a826153`](https://github.com/sebov/actions/commit/a826153bf52a19dabf0cf75c155b654a6ca150b3))
