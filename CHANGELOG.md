@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v0.5.0 (2022-01-08)
+### Feature
+* Opopop ([`a826153`](https://github.com/sebov/actions/commit/a826153bf52a19dabf0cf75c155b654a6ca150b3))
+
+### Fix
+* Aaa ([`248295e`](https://github.com/sebov/actions/commit/248295ea95458f0d8609ccca2e6ba708171d3605))
+
 ## v0.4.0 (2022-01-08)
 ### Feature
 * Yyykl2 ([`ac93cef`](https://github.com/sebov/actions/commit/ac93cef1ca53a812b685a3ced23d877d09655cc1))
